@@ -1,26 +1,167 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --ink: #1c1916;
+  --ink-soft: #3a342e;
+  --cream: #f3efe6;
+  --cream-deep: #e8e1d4;
+  --paper: #faf7f1;
+  --lake: #1f4f4a;
+  --lake-bright: #2d6b64;
+  --ember: #8b4518;
+  --line: rgba(28, 25, 22, 0.14);
+  --white: #ffffff;
+  --background: var(--paper);
+  --foreground: var(--ink);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: #faf7f1;
+  --color-foreground: #1c1916;
+  --color-ink: #1c1916;
+  --color-ink-soft: #3a342e;
+  --color-cream: #f3efe6;
+  --color-cream-deep: #e8e1d4;
+  --color-paper: #faf7f1;
+  --color-lake: #1f4f4a;
+  --color-lake-bright: #2d6b64;
+  --color-ember: #8b4518;
+  --color-line: rgba(28, 25, 22, 0.14);
+  --font-sans: var(--font-body);
+  --font-serif: var(--font-display);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body), Georgia, serif;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--lake) 28%, white);
+  color: var(--ink);
+}
+
+@layer base {
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display), "Times New Roman", serif;
+}
+
+.font-body {
+  font-family: var(--font-body), Georgia, serif;
+}
+
+.eyebrow {
+  font-family: var(--font-body), Georgia, serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.text-shadow-hero {
+  text-shadow: 0 2px 28px rgba(0, 0, 0, 0.45);
+}
+
+.rule-stack {
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 3px,
+    var(--ink) 3px,
+    var(--ink) 4px
+  );
+  height: 18px;
+  opacity: 0.85;
+}
+
+.ken-burns {
+  animation: kenBurns 28s ease-in-out infinite alternate;
+  will-change: transform;
+}
+
+@keyframes kenBurns {
+  from {
+    transform: scale(1.05) translate(0, 0);
+  }
+  to {
+    transform: scale(1.14) translate(-2%, -1%);
+  }
+}
+
+.fade-up {
+  animation: fadeUp 0.9s ease both;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 40s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.nav-drawer {
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+
+.site-container {
+  width: min(1120px, calc(100% - 2.5rem));
+  margin-inline: auto;
+}
+
+.site-container-wide {
+  width: min(1280px, calc(100% - 2rem));
+  margin-inline: auto;
+}
+
+.prose-baithak p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: var(--ink-soft);
+}
+
+.prose-baithak p + p {
+  margin-top: 1.25rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ken-burns,
+  .marquee-track,
+  .fade-up {
+    animation: none !important;
+  }
 }
