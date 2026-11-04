@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { BrandLogo } from "@/components/BrandLogo";
 import { MenuSearch } from "@/components/MenuSearch";
 import { site } from "@/content/site";
 
@@ -59,12 +60,7 @@ export function Header() {
             >
               <MenuToggleIcon open={open} />
             </button>
-            <Link
-              href="/"
-              className="font-display text-xl tracking-[0.18em] uppercase md:text-2xl"
-            >
-              {site.name}
-            </Link>
+            <BrandLogo light={light} />
           </div>
 
           <div className="flex items-center gap-2 md:gap-4">

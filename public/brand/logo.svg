@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 48" fill="none" role="img" aria-label="Baithak">
+  <rect x="0" y="4" width="40" height="40" rx="4" fill="#1c1916"/>
+  <path d="M7 30c4.2-2.2 8-2.2 12.2 0s8 2.2 12.2 0" stroke="#2d6b64" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M7 33.5c4.2-1.9 8-1.9 12.2 0s8 1.9 12.2 0" stroke="#f3efe6" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+  <text x="20" y="27" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="600" fill="#f3efe6">B</text>
+  <text x="52" y="32" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="500" fill="currentColor" letter-spacing="4.5">BAITHAK</text>
+</svg>

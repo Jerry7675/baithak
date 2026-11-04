@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { BrandLogo } from "@/components/BrandLogo";
 import { site } from "@/content/site";
 
 export function Footer() {
@@ -7,9 +8,7 @@ export function Footer() {
       <div className="rule-stack bg-cream opacity-100" />
       <div className="site-container grid gap-10 py-14 md:grid-cols-[1.2fr_1fr_1fr]">
         <div>
-          <p className="font-display text-3xl tracking-[0.14em] uppercase">
-            {site.name}
-          </p>
+          <BrandLogo light className="[&_span]:text-2xl md:[&_span]:text-3xl" />
           <p className="mt-3 max-w-sm text-cream/70">{site.tagline}</p>
           <p className="mt-6 text-sm text-cream/60">
             {site.location.hotel}
