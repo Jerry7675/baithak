@@ -28,7 +28,7 @@ export const menus: Menu[] = [
     subtitle: "Sunrise on the lake",
     blurb:
       "Begin gently with chiya, beaten rice, and the soft comfort of a Pokhara morning.",
-    image: "/media/chiya.jpg",
+    image: "/media/dishes/milk-tea.jpg",
     sections: [
       {
         title: "Morning plates",
@@ -38,7 +38,7 @@ export const menus: Menu[] = [
             description:
               "House milk tea with ring-shaped rice doughnuts, crisp at the edge, soft within.",
             price: "320",
-            image: "/media/dishes/01-chiya-sel.jpg",
+            image: "/media/dishes/milk-tea.jpg",
             tags: ["Vegetarian"],
           },
           {
@@ -46,21 +46,21 @@ export const menus: Menu[] = [
             description:
               "Eggs your way, aloo bhujia, toast, seasonal fruit and a pot of chiya.",
             price: "780",
-            image: "/media/dishes/02-thali.jpg",
+            image: "/media/dishes/dal-thali.jpg",
           },
           {
             name: "Syabaji & Eggs",
             description:
               "Beaten rice tossed with mustard oil, tomato and chilli, topped with soft scrambled eggs.",
             price: "520",
-            image: "/media/dishes/03-eggs.jpg",
+            image: "/media/dishes/breakfast-eggs.jpg",
           },
           {
             name: "Aloo Paratha",
             description:
               "Flaky wholewheat stuffed with spiced potato, served with yoghurt and achar.",
             price: "450",
-            image: "/media/dishes/04-dish.jpg",
+            image: "/media/dishes/curry-naan.jpg",
             tags: ["Vegetarian"],
           },
           {
@@ -68,7 +68,7 @@ export const menus: Menu[] = [
             description:
               "Warm oats with Himalayan honey, banana and toasted walnuts.",
             price: "480",
-            image: "/media/dishes/05-dish.jpg",
+            image: "/media/dishes/fruit-porridge.jpg",
             tags: ["Vegetarian"],
           },
         ],
@@ -81,7 +81,7 @@ export const menus: Menu[] = [
     subtitle: "Lakeside comfort",
     blurb:
       "The food of homes, tea shops and trail-side stalls — served from late morning through the afternoon.",
-    image: "/media/dal-bhat.jpg",
+    image: "/media/dishes/dal-thali.jpg",
     sections: [
       {
         title: "Small plates & snacks",
@@ -91,21 +91,21 @@ export const menus: Menu[] = [
             description:
               "Chicken or vegetable dumplings with sesame tomato achar.",
             price: "420",
-            image: "/media/dishes/06-dish.jpg",
+            image: "/media/dishes/momo-platter.jpg",
           },
           {
             name: "Crispy Chatamari",
             description:
               "Newari rice crepe with minced chicken, egg and spring onion.",
             price: "560",
-            image: "/media/dishes/07-crepe.jpg",
+            image: "/media/dishes/rice-crepe.jpg",
           },
           {
             name: "Aloo Chop",
             description:
               "Spiced potato fritters with green chutney and tamarind.",
             price: "380",
-            image: "/media/dishes/08-fritter.jpg",
+            image: "/media/dishes/potato-fritter.jpg",
             tags: ["Vegetarian"],
           },
           {
@@ -113,7 +113,7 @@ export const menus: Menu[] = [
             description:
               "Roasted soybeans with onion, chilli, coriander and mustard oil.",
             price: "320",
-            image: "/media/dishes/09-dish.jpg",
+            image: "/media/dishes/bean-salad.jpg",
             tags: ["Vegan"],
           },
         ],
@@ -126,7 +126,7 @@ export const menus: Menu[] = [
             description:
               "The daily plate — lentils, rice, seasonal vegetables, achar and papad.",
             price: "890",
-            image: "/media/dishes/10-dal.jpg",
+            image: "/media/dishes/dal-thali.jpg",
             tags: ["Vegetarian"],
           },
           {
@@ -134,21 +134,21 @@ export const menus: Menu[] = [
             description:
               "Hand-pulled noodle soup with Himalayan spices and fresh herbs.",
             price: "720",
-            image: "/media/dishes/11-thukpa.jpg",
+            image: "/media/dishes/noodle-soup.jpg",
           },
           {
             name: "Sekuwa Platter",
             description:
               "Charcoal-grilled marinated meat with onion salad and chiura.",
             price: "980",
-            image: "/media/dishes/12-sekuwa.jpg",
+            image: "/media/dishes/grilled-skewers.jpg",
           },
           {
             name: "Mustard Greens & Paneer",
             description:
               "Saag with homemade paneer, tempered garlic and dried chilli.",
             price: "760",
-            image: "/media/dishes/13-dish.jpg",
+            image: "/media/dishes/paneer-curry.jpg",
             tags: ["Vegetarian"],
           },
         ],
@@ -161,7 +161,7 @@ export const menus: Menu[] = [
     subtitle: "Evening by Phewa",
     blurb:
       "As the mountains fade to indigo, the kitchen turns to grills, curries and sharing plates.",
-    image: "/media/sekuwa.jpg",
+    image: "/media/dishes/grilled-skewers.jpg",
     sections: [
       {
         title: "To share",
@@ -171,21 +171,21 @@ export const menus: Menu[] = [
             description:
               "Beaten rice, choyla, achar, boiled egg and spiced soybeans for the table.",
             price: "1,450",
-            image: "/media/dishes/14-khaja.jpg",
+            image: "/media/dishes/dal-thali.jpg",
           },
           {
             name: "Lake Fish Fry",
             description:
               "Catch of the day, mustard-marinated and crisp-fried with lemon.",
             price: "1,120",
-            image: "/media/dishes/15-dish.jpg",
+            image: "/media/dishes/fried-catch.jpg",
           },
           {
             name: "Buff Choyla",
             description:
               "Smoky minced buffalo with Timur, garlic and green chilli.",
             price: "890",
-            image: "/media/dishes/16-dish.jpg",
+            image: "/media/dishes/grilled-meatballs.jpg",
           },
         ],
       },
@@ -197,14 +197,14 @@ export const menus: Menu[] = [
             description:
               "Slow-cooked with whole spices, potatoes and a soft roti.",
             price: "1,280",
-            image: "/media/dishes/17-curry.jpg",
+            image: "/media/dishes/rich-curry.jpg",
           },
           {
             name: "Jackfruit Berry Pulao",
             description:
               "Fragrant rice with young jackfruit, barberries and fried onion.",
             price: "980",
-            image: "/media/dishes/18-pulao.jpg",
+            image: "/media/dishes/spiced-rice.jpg",
             tags: ["Vegan"],
           },
           {
@@ -212,14 +212,14 @@ export const menus: Menu[] = [
             description:
               "Pan-roasted trout, tomato-ginger sauce, seasonal greens.",
             price: "1,450",
-            image: "/media/dishes/19-dish.jpg",
+            image: "/media/dishes/seared-fish.jpg",
           },
           {
             name: "Baithak Biryani",
             description:
               "Layered rice with chicken, saffron and crispy onion — for two.",
             price: "1,680",
-            image: "/media/dishes/20-dish.jpg",
+            image: "/media/dishes/chicken-biryani.jpg",
           },
         ],
       },
@@ -231,14 +231,14 @@ export const menus: Menu[] = [
             description:
               "Sweetened yoghurt with cardamom, saffron and pistachio.",
             price: "420",
-            image: "/media/dishes/35-dessert.jpg",
+            image: "/media/dishes/yogurt-cups.jpg",
             tags: ["Vegetarian"],
           },
           {
             name: "Juju Dhau",
             description: "King curd from Bhaktapur, served chilled with honey.",
             price: "380",
-            image: "/media/dishes/26-plate.jpg",
+            image: "/media/dishes/honey-yogurt.jpg",
             tags: ["Vegetarian"],
           },
         ],
@@ -251,7 +251,7 @@ export const menus: Menu[] = [
     subtitle: "Chiya to nightcap",
     blurb:
       "Piping chiya at dawn, cooling lassi at noon, and a careful list of cocktails after dusk.",
-    image: "/media/gift-tea.jpg",
+    image: "/media/dishes/milk-tea.jpg",
     sections: [
       {
         title: "Hot & cold",
@@ -260,26 +260,26 @@ export const menus: Menu[] = [
             name: "Baithak Chiya",
             description: "Milk tea with ginger, cardamom and black pepper.",
             price: "180",
-            image: "/media/dishes/21-chiya.jpg",
+            image: "/media/dishes/milk-tea.jpg",
           },
           {
             name: "Himalayan Coffee",
             description: "Single-origin pour-over from the mid-hills.",
             price: "320",
-            image: "/media/dishes/31-coffee.jpg",
+            image: "/media/dishes/cafe-coffee.jpg",
           },
           {
             name: "Mango Lassi",
             description: "Ripe mango, yoghurt and a touch of cardamom.",
             price: "380",
-            image: "/media/dishes/25-tea.jpg",
+            image: "/media/dishes/mango-lassi.jpg",
             tags: ["Vegetarian"],
           },
           {
             name: "Fresh Lime Soda",
             description: "Sweet, salty or mixed — your call.",
             price: "280",
-            image: "/media/dishes/27-feast.jpg",
+            image: "/media/dishes/lime-mint-soda.jpg",
             tags: ["Vegan"],
           },
         ],
@@ -291,25 +291,25 @@ export const menus: Menu[] = [
             name: "Raksi Sour",
             description: "Millet spirit, lemon, honey and egg white.",
             price: "780",
-            image: "/media/dishes/33-drink.jpg",
+            image: "/media/dishes/amber-cocktail.jpg",
           },
           {
             name: "Phewa Negroni",
             description: "Gin, local bitter and vermouth, orange twist.",
             price: "920",
-            image: "/media/dishes/28-share.jpg",
+            image: "/media/dishes/negroni-pour.jpg",
           },
           {
             name: "Aila Highball",
             description: "Newari distilled spirit with soda and lime.",
             price: "680",
-            image: "/media/dishes/29-street.jpg",
+            image: "/media/dishes/mint-highball.jpg",
           },
           {
             name: "Gorkha Beer",
             description: "Chilled local lager.",
             price: "450",
-            image: "/media/dishes/30-serve.jpg",
+            image: "/media/dishes/lager-glass.jpg",
           },
         ],
       },
@@ -376,31 +376,31 @@ export const featuredDishes = [
   {
     name: "Steam Momo",
     category: "Snacks",
-    image: "/media/dishes/06-dish.jpg",
+    image: "/media/dishes/momo-platter.jpg",
   },
   {
     name: "Dal Bhat Tarkari",
     category: "Mains",
-    image: "/media/dishes/10-dal.jpg",
+    image: "/media/dishes/dal-thali.jpg",
   },
   {
     name: "Baithak Chiya",
     category: "Drinks",
-    image: "/media/dishes/21-chiya.jpg",
+    image: "/media/dishes/milk-tea.jpg",
   },
   {
     name: "Sekuwa Platter",
     category: "Grills",
-    image: "/media/dishes/12-sekuwa.jpg",
+    image: "/media/dishes/grilled-skewers.jpg",
   },
   {
     name: "Chiya & Sel Roti",
     category: "Breakfast",
-    image: "/media/dishes/01-chiya-sel.jpg",
+    image: "/media/dishes/milk-tea.jpg",
   },
   {
     name: "Newari Khaja Set",
     category: "To share",
-    image: "/media/dishes/14-khaja.jpg",
+    image: "/media/dishes/dal-thali.jpg",
   },
 ];
